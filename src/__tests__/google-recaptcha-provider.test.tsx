@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '@testing-library/jest-dom';
 import { render, screen, act } from '@testing-library/react';
 import { GoogleReCaptchaProvider } from '../google-recaptcha-provider';
 import { useGoogleReCaptcha } from '../use-google-recaptcha';
