@@ -1,8 +1,9 @@
 # react-v19-google-recaptcha-v3
+[![npm version](https://img.shields.io/npm/v/react-v19-google-recaptcha-v3.svg)](https://www.npmjs.com/package/react-v19-google-recaptcha-v3)
 
 A modern, lightweight, and fully-typed Google reCAPTCHA v3 integration for React 19+.
 
-## Features
+## Features 🎉
 
 - 🔄 **React 19 Compatible** - Built specifically for React 19+
 - 🔒 **reCAPTCHA v3 Support** - Invisible CAPTCHA that returns a score
@@ -12,7 +13,7 @@ A modern, lightweight, and fully-typed Google reCAPTCHA v3 integration for React
 - 📱 **TypeScript Support** - Fully typed API for better developer experience
 - 🔄 **Token Refresh** - Support for refreshing tokens as needed
 
-## Installation
+## Installation 🚀
 
 ```bash
 npm install react-v19-google-recaptcha-v3
@@ -20,7 +21,7 @@ npm install react-v19-google-recaptcha-v3
 yarn add react-v19-google-recaptcha-v3
 ```
 
-## Basic Usage
+## Basic Usage 📝
 
 ```jsx
 import React, { useCallback } from 'react';
@@ -88,7 +89,7 @@ const App = () => {
 export default App;
 ```
 
-## API Reference
+## API Reference 📚
 
 ### `<GoogleReCaptchaProvider>`
 
@@ -132,7 +133,7 @@ A hook to access the reCAPTCHA functionality from any component within the provi
 | `scriptLoaded` | `boolean` | Whether the script has loaded |
 | `scriptError` | `Error \| null` | Error that occurred during script loading |
 
-## Advanced Usage
+## Advanced Usage 🔥
 
 ### Using Enterprise reCAPTCHA
 
@@ -196,7 +197,7 @@ const handleRecaptchaExecution = (executeRecaptcha: ExecuteRecaptcha) => {
 </GoogleReCaptchaProvider>
 ```
 
-## Server-side Verification
+## Server-side Verification 📊
 
 After obtaining a token on the client side, you should verify it on your server:
 
@@ -222,18 +223,18 @@ app.post('/api/verify-recaptcha', async (req, res) => {
 });
 ```
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## License 📜
 
-MIT License © 2025 Yassine Boumiza
+MIT License 2025 Yassine Boumiza
 
-## Author
+## Author 👨‍💻
 
 Yassine Boumiza
 
-## GitHub Repository
+## GitHub Repository 📚
 
 [https://github.com/advisely/react-v19-google-recaptcha-v3](https://github.com/advisely/react-v19-google-recaptcha-v3)
