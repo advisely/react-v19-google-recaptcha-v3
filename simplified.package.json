@@ -1,0 +1,53 @@
+{
+  "name": "react-v19-google-recaptcha-v3",
+  "version": "1.0.0",
+  "description": "Modern Google reCaptcha V3 implementation for React 19+",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Tests skipped for now\" && exit 0",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advisely/react-v19-google-recaptcha-v3.git"
+  },
+  "keywords": [
+    "react",
+    "react-19",
+    "google-recaptcha",
+    "recaptcha",
+    "recaptcha-v3",
+    "security",
+    "captcha"
+  ],
+  "author": "Yassine Boumiza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/advisely/react-v19-google-recaptcha-v3/issues"
+  },
+  "homepage": "https://github.com/advisely/react-v19-google-recaptcha-v3#readme",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "rollup": "^3.20.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.0"
+  }
+}
