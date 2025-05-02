@@ -13,6 +13,15 @@ A modern, lightweight, and fully-typed Google reCAPTCHA v3 integration for React
 - 📱 **TypeScript Support** - Fully typed API for better developer experience
 - 🔄 **Token Refresh** - Support for refreshing tokens as needed
 
+## Test Coverage 📊
+
+| Metric     | Coverage |
+|------------|----------|
+| Statements | 100%     |
+| Branches   | 91.78%   |
+| Functions  | 100%     |
+| Lines      | 100%     |
+
 ## Installation 🚀
 
 ```bash

@@ -168,7 +168,8 @@ export const GoogleReCaptchaProvider: React.FC<GoogleReCaptchaProviderProps> = (
   // Create the context value
   const contextValue = useMemo(
     () => ({
-      executeRecaptcha: scriptLoaded ? executeRecaptcha : undefined,
+      // Always expose executeRecaptcha; it will throw if script isn't loaded
+      executeRecaptcha,
       container: containerRef.current || undefined,
       scriptLoaded,
       scriptError
